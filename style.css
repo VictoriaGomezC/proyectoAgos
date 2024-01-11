@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+@font-face {
+    font-family: Wizard;
+    src: url(./wizards_magic/Wizard\ Magic.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100dvh;
+    display:flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.217), rgba(255, 255, 255, 0.147)), url(./LeandroFondo.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+nav{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(38, 2, 2);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./EgiptoFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+
+ul li{
+    padding:20px 15px;
+    display: inline-block;
+    font-family: Jost;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+.container{
+    width: 100%;
+    height: 900px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.Egipto{
+    background-image: url(./EgiptoFondo.jpg);
+}
+
+.Europa{
+    background-image: url(./EuropaFondo.jpg);
+}
+.Agosto{
+    background-image: url(./Leonardo_Diffusion_XL_i_want_a_black_cat_in_the_shape_of_an_ai_3.jpg);
+}
+
+
+
+.card{
+    width:1400px;
+    height: 500px;
+    background-color: rgba(172, 172, 172, 0.904);
+    border: 1px solid #575757 ;
+    border-radius: 62px 62px 62px 62px;
+    padding: 25px 25px;
+    background-size: cover;
+
+}
+
+.gallerytitle{
+    font-size: 2rem;
+    margin-bottom: 1em;
+    align-self: center;
+    
+
+}
+
+.gallerycontainer{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.gallerypicture{
+    flex: 300px;
+    min-width: 200px
+    
+}
+
+.galleryimg{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.cardpicture{
+    min-width: 250px;
+    min-height: 250px;
+}
+
+.cardimg{
+    min-width: 250px;
+    max-height: 250px;
+    align-self: center;
+
+}
+p{
+    font-size: 25px;
+}
+.title{
+    font-family: Wizard;
+    font-size: 35px;
+    font-weight: bolder;
+    margin: auto 0;
+    background-color: rgba(128, 128, 128, 0.428);
+    border-radius: 52px 52px 52px 52px;
+    padding: 15px 15px;
+}
+
+
